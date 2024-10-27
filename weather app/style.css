@@ -103,3 +103,29 @@ body {
     margin-top: 10px;
     display: none;
 }
+
+@media (max-width: 430px) {
+    .card {
+        max-width: 350px;
+        padding: 20px 15px;
+        margin-top: 50px;
+    }
+
+    .search input {
+        max-width: 200px;
+    }
+
+    .humidity, .wind {
+    font-size: 28px;
+    margin-top: -6px;
+    }
+
+    .details {
+        display: grid;
+    }
+
+    .col {
+        margin-bottom: 50px;
+    }
+    
+}
